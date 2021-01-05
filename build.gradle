@@ -16,7 +16,7 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-group 'springboot-web'
+group 'springboot-page'
 version '1.0.4-SNAPSHOT-'
 
 repositories {
