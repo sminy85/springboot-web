@@ -26,7 +26,7 @@ var main = {
             window.location.href='/';
         }).fail(function (error) {
             alert(JSON.stringify(error));
-        })
+        });
     },
     update : function () {
         var data = {
@@ -34,7 +34,7 @@ var main = {
             content : $('#content').val()
         };
 
-        var id = $('id').val();
+        var id = $('#id').val();
 
         $.ajax({
             type : 'PUT',
